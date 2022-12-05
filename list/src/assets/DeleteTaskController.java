@@ -1,19 +1,20 @@
-package assets;
+// // package assets;
 
-import java.sql.SQLException;
+// // import java.sql.SQLException;
 
-public class DeleteTaskController {
+// // public class DeleteTaskController {
 
-    String TaskName;
+// String TaskName;
 
-    public DeleteTaskController(String TaskName) {
+// public DeleteTaskController(String TaskName) {
 
-        this.TaskName = TaskName;
-    }
+// this.TaskName = TaskName;
+// }
 
-    public void DeleteTask(String delete) throws ClassNotFoundException, SQLException {
-        DataBaseHandler dbh = new DataBaseHandler();
-        dbh.DeleteTask(delete);
-    }
+// public void DeleteTask(String delete) throws ClassNotFoundException,
+// SQLException {
+// DataBaseHandler dbh = new DataBaseHandler();
+// dbh.DeleteTask(delete);
+// }
 
-}
+// // }
